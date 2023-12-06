@@ -25,3 +25,5 @@ class UserReponseSchema(CustomSchema):
     id: int
     name: str
     email: EmailStr
+    # password: str
+
