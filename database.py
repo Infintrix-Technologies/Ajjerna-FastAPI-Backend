@@ -9,8 +9,9 @@ import datetime
 import sqlalchemy as sa
 from sqlalchemy.exc import IntegrityError
 engine = create_engine(settings.DATABASE_URI,
-                       convert_unicode=True,
+                    #    convert_unicode=True,
                        echo=False,
+                       
                        # connect_args={"check_same_thread": False
                        #               }
                        )
